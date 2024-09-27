@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'YYReset';
+  src: url('./YYReset.otf') format('opentype');
+}
+
+body {
+  background: black;
+  font-size: 15px;
+}
+
+.time, .y, .yget {
+  color: white;
+}
+
+.y > mrow {
+  font-size: 20px;
+}
+
+* {
+  text-align: center;
+}
+
+.choose {
+  height: 30px;
+}
+
+[name="y2n"], [name="y2ng"], [name="yb"] {
+  background: red;
+  color: #ff8080;
+  font-size: 15px;
+}
+
+[name="option"], [name="about"], [name="achievement"] {
+  background: black;
+  color: #808080;
+  font-size: 15px;
+}
+
+.ym {
+  color: #707070;
+}
+
+.y2 {
+  color: #f0f0f0;
+}
+
+.y4 {
+  color: #e0e0e0;
+}
+
+.y8 {
+  color: #d0d0d0;
+}
+
+.y16 {
+  color: #c0c0c0;
+}
+
+.y32 {
+  color: #b0b0b0;
+}
+
+.y64 {
+  color: #a0a0a0;
+}
+
+.y128 {
+  color: #909090;
+}
+
+.y256 {
+  color: #808080;
+}
+
+button.y, button.y2, button.y4, button.y8, button.y16, button.y32, button.y64, button.y128, button.y256 {
+  background: #404040;
+}
+
+.stop {
+  background: #404040;
+  color: #ffffff;
+}
+
+.yb1 {
+  color: #ffffff;
+}
+
+.hard_reset {
+  background: #404040;
+  color: white;
+}
+
+.changelog {
+  color: #8000ff;
+}
+
+.achievement {
+  color: #8080ff;
+}
+
+.msg {
+  color: #0000ff;
+}
+
+table {
+  display: inline;
+}
+
+td {
+  background: #404040;
+  color: #8080ff;
+  font-size: 10px;
+  height: 75px;
+  width: 75px;
+}
