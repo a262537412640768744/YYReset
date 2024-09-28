@@ -14,6 +14,7 @@ function TransformToE(object) {
 function player() {
   return {
     y2ng: y2ng,
+    yb: yb,
     achievement: achievement,
     time: time,
     _stop: _stop
@@ -38,7 +39,10 @@ function load() {
     if (player_.y2ng) {
       property(y2ng, player_.y2ng)
     }
-    if (player_.achivement) {
+    if (player_.yb) {
+      property(yb, player_.yb)
+    }
+    if (player_.achievement) {
       achievement = player_.achievement
     }
     if (player_.time) {

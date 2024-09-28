@@ -267,7 +267,7 @@ function update() {
   update_y2n(choose[0] == 0 && choose[1] == 0, !_stop)
   update_yb(choose[0] == 0 && choose[1] == 1, !_stop)
   update_about(choose[0] == 8 && choose[1] == 0)
-  update_achievement(choose[0] == 8 && choose[1] == 1)
+  update_achievement(choose[0] == 8 && choose[1] == 1, !_stop)
   setTimeout(update, 20)
 }
 

@@ -85,6 +85,10 @@ button.y, button.y2, button.y4, button.y8, button.y16, button.y32, button.y64, b
   color: #ffffff;
 }
 
+.z {
+  color: #ff8080;
+}
+
 .hard_reset {
   background: #404040;
   color: white;

@@ -1,3 +1,7 @@
+let yb = {
+  z: E(0)
+}
+
 function ybasic() {
   return y2ng.y.add(1).log().mul(E.LOG2E).add(
     y2ng.gen[0].add(1).log().mul(E.LOG2E)).add(
@@ -40,8 +44,19 @@ function display_yb1() {
 </math>`
 }
 
+function display_z() {
+  return `<math display="block" class="z">
+  <mo style="font-family: 'YYReset';">你有</mo>
+  ${format(yb.z)}
+  <mo style="font-family: 'YYReset';">个</mo>
+  <mi>z</mi>
+  <mo style="font-family: 'YYReset';">星系</mo>
+</math>`
+}
+
 function display_yb() {
-  return `${display_yb1()}`
+  return `${display_yb1()}
+${display_z()}`
 }
 
 function update_yb(a = true, b = true) {
